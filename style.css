@@ -13,11 +13,12 @@ header {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
 }
 
 .main-box-item {
   width: 300px;
+  padding: 10px;
+  position: relative;
   background-color: #eeeeee;
   margin-right: 30px;
 }
@@ -49,4 +50,12 @@ header {
 
 .main-box-title {
   margin: 15px 0 5px 0;
+}
+
+.main-box-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
 }
