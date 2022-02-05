@@ -12,17 +12,37 @@ header {
 .main-box {
   width: 960px;
   margin: 50px auto;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-box-item {
   width: 300px;
   background-color: #eeeeee;
+  margin-right: 30px;
+}
+
+.main-box-item:last-child {
+  margin-right: 0;
 }
 
 .main-box-image {
   height: 150px;
   background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-box-image_2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-box-image_3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
   background-size: cover;
   background-position: center;
 }
