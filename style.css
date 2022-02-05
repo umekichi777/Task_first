@@ -64,3 +64,43 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width:768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .main-box {
+    width: 90%;
+    display: block;
+  }
+
+  .main-box-item {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .main-box-image {
+    width: 100%;
+  }
+
+  .main-box-image_2 {
+    width: 100%;
+  }
+
+  .main-box-image_3 {
+    width: 100%;
+  }
+
+  .main-box-title {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
