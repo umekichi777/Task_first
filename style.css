@@ -59,3 +59,8 @@ header {
   background-color: #ff9a4b;
   color: #fff;
 }
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
