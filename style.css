@@ -31,21 +31,21 @@ header {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .main-box-image_2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .main-box-image_3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .main-box-title {
